@@ -1,5 +1,6 @@
 models:
   Post:
+    data: [{title: 'Title 1' }, { title: 'Title 2'}]
     hasMany: [Comment]
     fake:
       _count: 10
